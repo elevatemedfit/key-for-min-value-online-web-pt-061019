@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
 key_for_min_value.collect do |name, value|
   nuname = ""
   nuvalue = ""
-  if value ==nuvalue || value<nuvalue
+  if nuvalue =="" || value<nuvalue
     nuvalue = value
     nuname = name
 end
